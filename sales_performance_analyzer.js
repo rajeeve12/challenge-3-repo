@@ -20,3 +20,11 @@ function determinePerformanceRating(sales) {
         return "Needs Improvement"
     )
 };
+
+let salespeople = 0;
+function findTopAndBottomPerformers(sales) {
+if(salespeople.length>=sales)
+    return findTopAndBottomPerformers;
+};
+if(salespeople.length<=sales)
+    return findTopAndBottomPerformers;
