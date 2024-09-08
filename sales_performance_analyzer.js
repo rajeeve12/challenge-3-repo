@@ -28,3 +28,16 @@ if(salespeople.length>=sales)
 };
 if(salespeople.length<=sales)
     return findTopAndBottomPerformers;
+
+let topPerformers = ["Bob","Sally","Emilie"];
+let bottomPerformers = ["Kyle","Aidin","Gage"];
+
+function generatePerformanceReport(sales) {
+    return calculateAverageSales;
+if(sales.length >= 100) {
+    return topPerformers
+};
+
+if(sales.length<=100)
+{return bottomPerformers};
+};
