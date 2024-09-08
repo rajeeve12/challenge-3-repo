@@ -5,3 +5,18 @@ function calculateAverageSales(sales) {
     }
 };
 
+function determinePerformanceRating(sales) {
+    if(sales>10000
+        return "excellent"
+    )
+    if(10000>sales>70000
+        return "Good"
+    )
+
+    if(7000>sales>4000
+        return "Satisfactory"
+    )
+    if(sales<4000
+        return "Needs Improvement"
+    )
+};
